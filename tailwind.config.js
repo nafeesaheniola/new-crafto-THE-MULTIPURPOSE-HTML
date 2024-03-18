@@ -4,11 +4,10 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'headerbg': "url('/src/images/slider.jpg')",
-        'sectionbg': "url('/src/images/section-bg.jpg')",
-        
-      }
+        headerbg: "url('/images/slider.jpg')",
+        sectionbg: "url('/images/section-bg.jpg')",
+      },
     },
   },
   plugins: [],
-}
+};
